@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+.content {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container--header{
+    height: fit-content;
+    width: fit-content;
+    background-color: orange;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.container--instructions{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    height: fit-content;
+    width: 50%;
+    background-color: bisque;
+    color: green;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.container--gameNumScore{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 0;
+} 
+
+.container--crystals{
+    margin: 0 auto;
+    width: 50%;
+    height: fit-content;
+    padding-top: 1em;
+    
+}
+
+.container--userScore{
+    margin-left: 0 auto;
+    width: 50%;
+    height: fit-content;
+}
