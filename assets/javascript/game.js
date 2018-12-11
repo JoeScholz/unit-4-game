@@ -21,9 +21,11 @@ $("#gameNum").html(gameNumber);
 var greenGem = Math.floor(Math.random() * 12) + 1
 console.log(greenGem)
 
+
 $(".green").on("click", function () {
-userScore += greenGem;
-console.log("totalUserScore " + greenGem)
+    userScore += greenGem
+console.log("totalUserScore " + userScore);
+$("#userNum").text(userScore);
 });
 
 
