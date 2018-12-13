@@ -3,7 +3,7 @@ body {
     background-color: lightskyblue;
 }
 
-.content {
+.container--content {
     margin: 0 auto;
     justify-content: center;
 }
