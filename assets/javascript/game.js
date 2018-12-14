@@ -53,6 +53,7 @@ $(".green").on("click", function () {
 
         if (userScore === gameNumber) {
             console.log("you win");
+            alert("You win! Keep the Gems! Play again?");
             wins++;
             $("#wins").text(wins);
             startFunction();
@@ -61,6 +62,7 @@ $(".green").on("click", function () {
     
         if (userScore > gameNumber) {
             console.log("You Lose");
+            alert("Too bad! You lose the Gems. Play again?");
             losses++;
             $("#losses").text(losses);
             startFunction();
@@ -76,6 +78,7 @@ $(".red").on("click", function () {
         
     if (userScore === gameNumber) {
         console.log("you win");
+        alert("You win! Keep the Gems! Play again?");
         wins++;
         $("#wins").text(wins);
         startFunction();
@@ -84,6 +87,7 @@ $(".red").on("click", function () {
 
     if (userScore > gameNumber) {
         console.log("You Lose");
+        alert("Too bad! You lose the Gems. Play again?");
         losses++;
         $("#losses").text(losses);
         startFunction();
@@ -97,17 +101,22 @@ $(".yellow").on("click", function () {
     
     if (userScore === gameNumber) {
         console.log("you win");
+        alert("You win! Keep the Gems! Play again?");
         wins++;
         $("#wins").text(wins);
         startFunction();
+        alert("You win! Keep the Gems! Play again?");
+
     }
 
 
     if (userScore > gameNumber) {
         console.log("You Lose");
+        alert("Too bad! You lose the Gems. Play again?");
         losses++;
         $("#losses").text(losses);
         startFunction();
+
     }
 });
 
@@ -118,6 +127,7 @@ $(".purple").on("click", function () {
     
     if (userScore === gameNumber) {
         console.log("you win");
+        alert("You win! Keep the Gems! Play again?");
         wins++;
         $("#wins").text(wins);
         startFunction();
@@ -126,6 +136,7 @@ $(".purple").on("click", function () {
 
     if (userScore > gameNumber) {
         console.log("You Lose");
+        alert("Too bad! You lose the Gems. Play again?");
         losses++;
         $("#losses").text(losses);
         startFunction();

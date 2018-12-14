@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background-color: lightskyblue;
+    background-color: rgb(160, 238, 144);
 }
 
 .container--content {
@@ -10,10 +10,12 @@ body {
 
 .container--header{
     height: fit-content;
-    width: fit-content;
-    background-color: orange;
+    width: 100%;
+    background-color: rgb(82, 2, 92);
     color: #ffffff;
     margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 .container--instructions{
@@ -22,16 +24,23 @@ body {
     padding-right: 1em;
     height: fit-content;
     width: 50%;
-    background-color: bisque;
+    background-color: rgb(255, 217, 0);
     color: green;
     margin: 1em auto;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
 }
 
 .container--gameNumScore{
     width: 50%;
     margin: 0 auto;
     padding-left: 0;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    display: inline;
+    text-align: center;
 } 
 
 .container--crystals{
@@ -46,4 +55,11 @@ body {
     margin-left: 0 auto;
     width: 50%;
     height: fit-content;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    display: inline;
+    text-align: center;
+
+
 }
